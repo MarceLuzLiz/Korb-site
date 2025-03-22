@@ -5,7 +5,7 @@ html, body, #home {
 
 
 body {
-	background: url(../IMAGENS/Korbcapa.png),
+	background: url(../IMAGENS/Korbcapa2.png),
 				url(../IMAGENS/ruido2.png),
 				linear-gradient(50deg,white,black);
 	background-attachment: fixed;
@@ -17,7 +17,7 @@ body {
 /* Barra Nav
 ----------------------*/
 nav.navbar-transparente {
-	padding: 15px 0px;
+	padding: 40px 0px;
 	background: rgba(0, 0, 0, 0.95); 
 }
 
@@ -60,22 +60,23 @@ nav.navbar-transparente {
 }
 
 .btn-roxo {
-	background: grey;
+	background: black;
 	border: 2px solid white;
 }
 
 .btn-roxo:hover {
-	background: black;
+	background: #374151;
 	color: white;
 }
 
 .btn-branco {
-	border: 2px solid white;
+	border: 2px solid #374151;
+	color: black;
 }
 
 .btn-branco:hover {
-	background: white;
-	color: black;
+	background: black;
+	color: white;
 }
 
 .btn-contador {
@@ -99,12 +100,12 @@ nav.navbar-transparente {
 }
 
 #servicos {
-	background: white;
+	background:black;
 	
 }
 
 #servicos h2, h3 {
-	color: black;
+	color: white;
 
 }
 
@@ -134,7 +135,7 @@ nav.navbar-transparente {
 ---------------*/
 footer {
 	background: #000;
-	padding: 50px 0 20px 0;
+	padding: 60px 0 20px 0;
 	position: relative;
 }
 
@@ -142,16 +143,14 @@ footer h4 {
 	color: white;
 	font-size: 0.8em;
 	text-transform: uppercase;
-	text-align: left;
+	
 }
 
 footer h5 {
 	color: white;
 	font-size: 0.8em;
 	text-transform: uppercase;
-	text-align: center;
-	padding: 0 0 0 5em;
-}
+	}
 
 footer .navbar-nav {
 	color: white;
@@ -175,9 +174,14 @@ footer ul {
 }
 
 footer ul li {
-	float: right;
+	float: left;
 	margin: 0 2px;
 }
+
+.img-pdg {
+	padding: 0 0 0 5px;
+}
+
 
 /* Tipografia 	
 ---------------*/
@@ -197,6 +201,10 @@ h3 {
 	font-size: 2em;
 	font-weight: 700;
 	
+}
+
+p {
+	color: grey;
 }
 
 
