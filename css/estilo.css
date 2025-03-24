@@ -1,7 +1,11 @@
 html, body, #home {
 	height: 100%;
 	overflow-x: hidden;
+
 }
+
+
+
 
 
 body {
@@ -10,6 +14,11 @@ body {
 				linear-gradient(50deg,white,black);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
+}
+
+section #servicos{
+	overflow-y: hidden;
+	margin-top: 120px;
 }
 
 
@@ -45,6 +54,90 @@ nav.navbar-transparente {
 	width: 1px;
 	background: white;
 	margin: 12px 15px;
+}
+
+/* home contagem*/
+
+.countdown-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.countdown-box {
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    border-radius: 8px;
+    min-width: 90px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.countdown-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+.countdown-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.countdown-label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.novidade-container {
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+
+.novidade-image {
+	max-width: 100%;
+    height: auto;
+    margin: 20	px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    
+}
+
+.novidade-image:hover {
+    transform: scale(1.05);
+}
+
+.novidade-title {
+	text-align: center;
+    font-size: 3rem;
+    color: #28a745;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 
@@ -97,8 +190,19 @@ nav.navbar-transparente {
 
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
-	color: black;
+	color: white;
+	margin: 0PX;
 	
+}
+
+.carousel-inner img {
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
 }
 
 
@@ -140,9 +244,9 @@ nav.navbar-transparente {
 }
 
 .rotacionar {
-	transform: rotate(30deg);
-	-ms-transform: rotate(30deg);
-	-webkit-transform: rotate(30deg);
+	transform: rotate(00deg);
+	-ms-transform: rotate(00deg);
+	-webkit-transform: rotate(00deg);
 	padding-left: 80px;
 }
 
@@ -249,6 +353,31 @@ p {
 		margin: 15px 18px 0 0;
 	}
 
+	.countdown-container {
+        flex-wrap: wrap;
+    }
+    
+    .countdown-box {
+        margin: 5px;
+        padding: 15px;
+        min-width: 70px;
+    }
+    
+    .countdown-title, .novidade-title {
+        font-size: 2rem;
+    }
+    
+    .countdown-number {
+        font-size: 1.8rem;
+    }
+    
+    .countdown-label {
+        font-size: 0.8rem;
+    }
+
+   
+}
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -272,10 +401,35 @@ p {
 		margin: 0px 15px;
 	}
 	
-	footer ul li img{
+	footer ul li img {
 		float: left;
 		margin: 15px 27px 0 0;
 	}
+
+	.countdown-container {
+        flex-wrap: wrap;
+    }
+    
+    .countdown-box {
+        margin: 5px;
+        padding: 15px;
+        min-width: 70px;
+    }
+    
+    .countdown-title, .novidade-title {
+        font-size: 2rem;
+    }
+    
+    .countdown-number {
+        font-size: 1.8rem;
+    }
+    
+    .countdown-label {
+        font-size: 0.8rem;
+    }
+        
+    
+}
 
 
 }
@@ -285,6 +439,7 @@ p {
 	h1 {
 		font-size: 4em;
 	}
+
 
 }
 
@@ -303,3 +458,4 @@ p {
 	}
 
 }
+
