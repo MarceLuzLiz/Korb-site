@@ -360,7 +360,7 @@ p {
     .countdown-box {
         margin: 2px;
         padding: 5px;
-        min-width: 70px;
+        min-width: 50px;
     }
     
     .countdown-title, .novidade-title {
@@ -368,7 +368,7 @@ p {
     }
     
     .countdown-number {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
     
     .countdown-label {
