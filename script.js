@@ -1,5 +1,5 @@
 // Data alvo: 25 de março de 2005 às 8:00
-const targetDate = new Date('2025-03-25T08:00:00');
+const targetDate = new Date('2025-05-23T11:00:00');
 
 function updateCountdown() {
     const now = new Date();
